@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+    <form>
+      <label for="text">Enter Your Details Below</label><br />
+      <label for="text"
+        ><ul>
+          <li>
+            <input type="email" placeholder="abc@gamil.com" />
+          </li></ul
+      ></label>
+      <label for="text"
+        ><ul>
+          <li>
+            <input type="password" placeholder="Enter password" /><br />
+          </li></ul
+      ></label>
+      <label class="dark" for="text"
+        >!type a Complex password with 8-20 Characters</label
+      ><br />
+      <label for="text"
+        ><ul>
+          <li>
+            <input type="text" placeholder="+20 Phone Number" /><br />
+          </li></ul
+      ></label>
+      <hr />
+      <label class="dark" for="text">Enter Your Profession:</label>
+      <ul>
+        <li>
+          <input type="radio" name="Profession" value="Student" />Student
+          <input type="radio" name="Profession" value="Teacher" />Teacher
+          <input type="radio" name="Profession" value="Developer" />Developer
+        </li>
+      </ul>
+      <br />
+      <label for="text">Choose the Stage if you are (student)</label>
+      <select name="Student" id="Student">
+        <option value=""></option>
+        <option value="">First Pnmary</option>
+        <option value="">Two Pnmary</option>
+        <option value="">three Pnmary</option>
+        <option value="">For Pnmary</option>
+      </select>
+      <hr />
+      <br />
+      <ul>
+        <li>
+          Enter Your Birth Date. <input type="date" name="Date" id="Date" />
+        </li>
+      </ul>
+      <br />
+      <hr />
+      <ul>
+        <br />
+        <li><input type="text" placeholder="Any Notes" /></li>
+      </ul>
+      <br />
+      <hr />
+      <button type="submit">submit</button>
+      <button type="Reset">Reset</button>
+    </form>
+  </body>
+</html>

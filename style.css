@@ -1,0 +1,7 @@
+body {
+  background-color: lightblue;
+  border: solid 3px black;
+}
+.dark {
+  font-weight: bold;
+}
